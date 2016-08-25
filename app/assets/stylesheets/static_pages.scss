@@ -1,0 +1,43 @@
+$gray-medium-light: #EAEAEA;
+
+.post-card {
+  display: inline-block;
+}
+
+.post-legenda {
+  display: inline-block;
+  font-size: 10px;
+  color: gray;
+}
+
+.caption {
+  .legenda {
+    padding-top: 5px;
+    text-align: center;
+  }
+}
+
+footer {
+  margin-top: 45px;
+  padding-top: 5px;
+  border-top: 1px solid $gray-medium-light;
+  color: $gray-light;
+  a {
+    color: $gray;
+    /*It means: that a:hover */
+    &:hover{
+      color: $gray-darker;
+    }
+  }
+  small {
+    float: left;
+  }
+  ul {
+    float: right;
+    list-style: none;
+    li {
+      float: left;
+      margin-left: 15px;
+    }
+  }
+}
