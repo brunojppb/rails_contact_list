@@ -1,0 +1,13 @@
+<div class="row">
+  <div class="col-xs-12">
+    <h1>Editar Contato</h1>
+  </div>
+
+  <div class="col-md-6 col-md-offset-3 col-xs-12">
+    <%= form_for [current_user, @contact] do |f| %>
+      <%= render 'fields', f: f %>
+
+      <%= f.submit 'Atualizar', class: 'btn btn-primary' %>
+    <% end %>
+  </div>
+</div>

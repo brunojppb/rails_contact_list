@@ -8,6 +8,9 @@ pt-BR:
         name:                   'Nome'
         password:               'Senha'
         password_confirmation:  'Confirmação da senha'
+      contact:
+        name:                   'Nome'
+        phone:                  'Telefone'
     errors:
       messages:
         blank:                'não pode ser em branco'
