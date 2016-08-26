@@ -1,2 +1,13 @@
-<h1>Users#edit</h1>
-<p>Find me in app/views/users/edit.html.erb</p>
+<div class="row">
+  <div class="col-xs-12">
+    <h1>Editar Perfil</h1>
+  </div>
+
+  <div class="col-md-6 col-md-offset-3 col-xs-12">
+    <%= form_for current_user do |f| %>
+      <%= render 'fields', f: f %>
+
+      <%= f.submit 'Atualizar', class: 'btn btn-primary' %>
+    <% end %>
+  </div>
+</div>
