@@ -1,6 +1,6 @@
 # Contact List
 
-Gerencie sua agenda de contatos onde você quiser. Use o Contact List! Projeto criado com o objetivo de ensinar Ruby on Rails a programadores de outras linguagens.
+Gerencie sua agenda de contatos onde você quiser. Use o Contact List! Projeto criado com o objetivo de ensinar Ruby on Rails a programadores de outras linguagens no curso [Ruby on Rails 5 na prática](https://www.udemy.com/ruby-on-rails-5-na-pratica).
 
 ## Requisitos Necessários:
 
@@ -18,7 +18,7 @@ Gerencie sua agenda de contatos onde você quiser. Use o Contact List! Projeto c
 
 ## Para executar o projeto:
 
-Antes de tudo, tenha certeza de instalar todos os requisitos necessários. [Siga os passos desse vídeo para configurar](http://www.youtube.com.br/)
+Antes de tudo, tenha certeza de instalar todos os requisitos necessários. [Siga os passos desse link para configurar](https://gist.github.com/brunojppb/338e08da867f4cb05a8de9d9523f0ffd)
 
 ### Clone em sua máquina
 
