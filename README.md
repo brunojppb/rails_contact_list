@@ -22,26 +22,26 @@ Antes de tudo, tenha certeza de instalar todos os requisitos necessários. [Siga
 
 ### Clone em sua máquina
 
-```sh
-$ git clone git@github.com:brunojppb/rails_contact_list.git
+```shell
+git clone git@github.com:brunojppb/rails_contact_list.git
 ```
 
 ### Instale as dependências
-```sh
-$ cd /rails_contact_list/
-$ bundle install
+```shell
+cd rails_contact_list
+$bundle install
 ```
 
 ### Configure o Banco de Dados
 Copie o arquivo *config/database.exemple.yml* e cole na mesma pasta, renomeando para *database.yml*
 e configure seu bando de dados(Por default, estamos usando PostgreSQL).
 Realize a criação do banco e execute as migrações
-```sh
-$ rails db:create
-$ rails db:migrate
+```shell
+rails db:create
+rails db:migrate
 ```
 
 ### Execute a aplicação
-```sh
-$ rails s
+```shell
+rails s
 ```
