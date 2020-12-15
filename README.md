@@ -29,7 +29,7 @@ git clone git@github.com:brunojppb/rails_contact_list.git
 ### Instale as dependências
 ```shell
 cd rails_contact_list
-$bundle install
+bundle install
 ```
 
 ### Configure o Banco de Dados
